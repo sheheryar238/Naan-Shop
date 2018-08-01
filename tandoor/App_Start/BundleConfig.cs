@@ -23,21 +23,31 @@ namespace tandoor
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/style.css",
-                         "~/Content/signup.css",
-                      
-                       "~/Content/normalize.css",
-                         "~/Content/materialdesignicons.min.css",
-                         "~/Content/media.css",
-                         "~/Content/Grid.css",
-                           "~/Content/animate.css",
-                             "~/Content/ionicons.min.css"));
+                "~/Content/animate.css",
+                "~/Content/icomoon.css",
+                "~/Content/bootstrap.css",
+                "~/Content/owl.carousel.min.css",
+                "~/Content/owl.theme.default.min.css",
+                "~/Content/magnific-popup.css",
+                "~/Content/flexslider.css",
+                "~/Content/bootstrap-datepicker.css",
+                "~/Content/style.css"
+                ));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryTandoor").Include(
-              "~/Scripts/jquery-{version}.js",
-              "~/Scripts/jquery.waypoints.min",
-              "~/Scripts/script.js",
-              "~/Scripts/signup.js"
+            bundles.Add(new ScriptBundle("~/bundles/Indexjs").Include(
+                "~/Scripts/modernizr-2.6.2.min.js",
+              "~/Scripts/jquery-3.3.1.min.js",
+              "~/Scripts/jquery.easing.1.3.js",
+              "~/Scripts/bootstrap.min.js",
+              "~/Scripts/jquery.waypoints.min.js",
+              "~/Scripts/jquery.stellar.min.js",
+              "~/Scripts/owl.carousel.min.js",
+              "~/Scripts/jquery.flexslider-min.js",
+              "~/Scripts/bootstrap-datepicker.js",
+              "~/Scripts/main.js",
+              "~/Scripts/magnific-popup-options.js",
+              "~/Scripts/jquery.magnific-popup.min.js"
               ));
         }
-    } }
+    }
+}

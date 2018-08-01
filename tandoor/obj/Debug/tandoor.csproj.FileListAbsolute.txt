@@ -237,3 +237,4 @@ D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csproj.Cor
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csproj.CopyComplete
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.dll
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.pdb
+D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csprojResolveAssemblyReference.cache
