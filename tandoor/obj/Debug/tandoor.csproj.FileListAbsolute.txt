@@ -238,3 +238,5 @@ D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csproj.Cop
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.dll
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.pdb
 D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csprojResolveAssemblyReference.cache
+D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.Migrations.InitialModel.resources
+D:\workspace\visual studio\Naan-Shop-master\tandoor\obj\Debug\tandoor.csproj.GenerateResource.cache

@@ -20,6 +20,11 @@ namespace tandoor.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Items> Items { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<OrderItems> orderItems { get; set; }
+        public DbSet<OrderInfo> Info { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
